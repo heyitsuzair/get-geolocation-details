@@ -5,10 +5,7 @@ import inquirer from "inquirer";
 import { createSpinner } from "nanospinner";
 import { exec } from "child_process";
 import axios from "axios";
-import { config } from "dotenv";
 import cliTable from "cli-table";
-
-config();
 
 let localIp;
 
@@ -21,7 +18,7 @@ const getPublicIP = () => {
 };
 
 const welcome = () => {
-  console.log(chalk.bgBlue(`get-geolocation-details 1.0.4 by Muhammad Uzair`));
+  console.log(chalk.bgBlue(`get-geolocation-details 1.0.5 by Muhammad Uzair`));
 };
 
 // Get IP Address Of User
@@ -49,7 +46,7 @@ const getIpDetails = async (ip) => {
 
   try {
     const { data } = await axios.get(
-      `http://api.ipapi.com/api/${ip}?access_key=${process.env.ACCESS_KEY}`
+      `http://api.ipapi.com/api/${ip}?access_key=781724a7accdd2193aa0e99163713172`
     );
     spinner.stop();
     if (!data.ip) {
