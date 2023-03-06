@@ -18,7 +18,7 @@ const getPublicIP = () => {
 };
 
 const welcome = () => {
-  console.log(chalk.bgBlue(`get-geolocation-details 1.0.5 by Muhammad Uzair`));
+  console.log(chalk.bgBlue(`get-geolocation-details 1.0.6 by Muhammad Uzair`));
 };
 
 // Get IP Address Of User
