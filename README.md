@@ -18,7 +18,7 @@
 
 ## Installation
 
-Install the CLI globally. If you are windows user, run your command prompt/terminal as administrator. If you are macOS user, add ```bash sudo``` before the following command.
+Install the CLI globally. If you are windows user, run your command prompt/terminal as administrator. If you are macOS user, add ```sudo``` before the following command.
 
 ```bash
   npm i -g get-geolocation-details
