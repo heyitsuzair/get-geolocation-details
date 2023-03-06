@@ -21,7 +21,7 @@ const getPublicIP = () => {
 };
 
 const welcome = () => {
-  console.log(chalk.bgBlue(`get-geolocation-details 1.0.1 by Muhammad Uzair`));
+  console.log(chalk.bgBlue(`get-geolocation-details 1.0.4 by Muhammad Uzair`));
 };
 
 // Get IP Address Of User
@@ -54,7 +54,7 @@ const getIpDetails = async (ip) => {
     spinner.stop();
     if (!data.ip) {
       spinner.stop();
-      spinner.error({ text: "Please Enter Valid IP Address" });
+      spinner.error({ text: data.error.info });
       process.exit(1);
     }
     console.clear();

@@ -1,6 +1,6 @@
 {
   "name": "get-geolocation-details",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "📌 A CLI that gives you location details of any IP address",
   "main": "index.js",
   "repository": "git@github.com:heyitsuzair/node-stripe-payments.git",
