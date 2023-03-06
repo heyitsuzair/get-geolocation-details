@@ -32,4 +32,4 @@ Enter the following in your terminal:
   location
 ```
 The CLI will ask you to give an IP address. Enter the IP address you want to get the location information of.
-![Image](/img/cli.PNG "Image")
+![Image](/img/cli-img.PNG "Image")
