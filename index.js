@@ -28,7 +28,7 @@ const askIp = () => {
     name: "ipInput",
     type: "input",
     prefix: ">",
-    message: `${chalk.greenBright("Enter Any IP Address")}`,
+    message: `${chalk.greenBright("Enter Any IP Address:")}`,
     default: () => {
       return localIp;
     },

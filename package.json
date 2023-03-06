@@ -6,7 +6,7 @@
   "repository": "git@github.com:heyitsuzair/node-stripe-payments.git",
   "author": "Muhammad Uzair <uzairdevil354123@gmail.com>",
   "license": "MIT",
-  "type":"module",
+  "type": "module",
   "bin": "./index.js",
   "keywords": [
     "geolocation",
