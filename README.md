@@ -18,7 +18,7 @@
 
 ## Installation
 
-Install the CLI globally. If you are windows user, run your command prompt/terminal as administrator. If you are macOS user, add sudo before the following command.
+Install the CLI globally. If you are windows user, run your command prompt/terminal as administrator. If you are macOS user, add ```bash sudo``` before the following command.
 
 ```bash
   npm i -g get-geolocation-details
@@ -32,4 +32,4 @@ Enter the following in your terminal:
   location
 ```
 The CLI will ask you to give an IP address. Enter the IP address you want to get the location information of.
-![Image](/img/cli-img.PNG "Image")
+![Image](https://github.com/heyitsuzair/get-geolocation-details/blob/master/img/cli-img.PNG "Image")
