@@ -1,0 +1,24 @@
+{
+  "name": "get-geolocation-details",
+  "version": "1.0.0",
+  "description": "📌 A CLI that gives you location details of any IP address",
+  "main": "index.js",
+  "repository": "git@github.com:heyitsuzair/node-stripe-payments.git",
+  "author": "Muhammad Uzair <uzairdevil354123@gmail.com>",
+  "license": "MIT",
+  "type":"module",
+  "bin": "./index.js",
+  "keywords": [
+    "geolocation",
+    "get-geolocation-details",
+    "geolocation-details"
+  ],
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0"
+  }
+}
